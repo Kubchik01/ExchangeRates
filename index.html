@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img class="logo" src="images/pngwing.com (6).png" alt="" />
+      <h1 class="logo-text">worldCurrency</h1>
+
+      <div class="">
+        <h2>Exchange/rates</h2>
+        <select onchange="getMainSelect()" id="main-select">
+          <option value="usd">USD</option>
+          <option value="kzt">KZT</option>
+          <option value="rub">RUB</option>
+          <option value="eur">EUR</option>
+          <option value="kgs">KGZ</option>
+        </select>
+      </div>
+    </header>
+    <div class="card">
+      <h1>Currency Converterт</h1>
+      <div class="container">
+        <div class="card-work">
+          <div>
+            <span id="USD">USD</span>
+            <h3 id="usd"></h3>
+          </div>
+          <div>
+            <span id="KZ">KZT</span>
+            <h3 id="kzt"></h3>
+          </div>
+          <div>
+            <span id="RUB">RUB</span>
+            <h3 id="rub"></h3>
+          </div>
+          <div>
+            <span id="YA">EUR</span>
+            <h3 id="eur"></h3>
+          </div>
+          <div>
+            <span id="KGS">KGS</span>
+            <h3 id="kgs"></h3>
+          </div>
+        </div>
+      </div>
+      <div class="all-container">
+        <div class="container-2">
+          <p>Отдаем:</p>
+          <select onchange="giveSelect()" id="select-give">
+            <option value="usd">USD</option>
+            <option value="kzt">KZT</option>
+            <option value="rub">RUB</option>
+            <option value="eur">EUR</option>
+            <option value="kgs">KGZ</option>
+          </select>
+          <input onchange="giveSelect()" id="input" type="number" />
+        </div>
+        <div class="container-3">
+          <p>Получаем:</p>
+          <select onchange="giveSelect()" id="select-get">
+            <option value="usd">USD</option>
+            <option value="kzt">KZT</option>
+            <option value="rub">RUB</option>
+            <option value="eur">EUR</option>
+            <option value="kgs">KGZ</option>
+          </select>
+          <h1 id="result"></h1>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

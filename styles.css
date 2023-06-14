@@ -1,0 +1,181 @@
+body {
+  background-image: url(images/dollars_holding_hand_with_green_background_4k_hd_money.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #333;
+}
+
+.logo {
+  animation: spin 3s linear infinite;
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* ! */
+.card-work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.card-work span {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#USD {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+#KZ {
+  background-color: #3498db;
+  color: #fff;
+}
+
+#RUB {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+#KGS {
+  background-color: #f1c40f;
+  color: #fff;
+}
+
+#YA {
+  background-color: #9b59b6;
+  color: #fff;
+}
+
+/* !Карточка */
+.card {
+  margin-top: 100px;
+  margin-left: 13px;
+  width: 660px;
+  height: 500px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.card-work {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+}
+
+span {
+  font-size: 18px;
+  color: #666;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+select {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #999999;
+  color: #333;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+select:hover {
+  background-color: #e0e0e0;
+}
+
+select:focus {
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #353535;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.all-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-3 {
+  text-align: center;
+}
